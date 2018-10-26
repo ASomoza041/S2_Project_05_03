@@ -81,5 +81,28 @@ a#marker3 {
     left: 400px;
 }
 
+a#marker4 {
+    top: 217px;
+    left: 452px;
+}
+
+a#marker5 {
+    top: 229px;
+    left: 498px;
+}
+
+a#marker6 {
+    top: 246px;
+    left: 544px;
+}
+
 
 /* Map Information Styles */
+/* The code holds style rules for the divs containing map info. The style rules control the positioning of the div elements with the id mapinfo */
+div.mapInfo {
+    display: none;
+}
+
+a.battleMarkers:hover+div.mapInfo {
+    display: block;
+}
